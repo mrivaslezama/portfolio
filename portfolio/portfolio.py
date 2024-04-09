@@ -16,10 +16,38 @@ def index() -> rx.Component:
     return rx.center(
         
         rx.vstack(
-            rx.heading("Welcome to Reflex!", size="9"),
-            rx.text("Get started by editing ", rx.code(filename)),
+            rx.heading("Hola, Soy Miguel!", size="9"),
+            rx.text("Este es un ensayo con REFLEX!"),
+            rx.text(""" Contact information, 
+                    relevant social media accounts;
+                    Short bio and your photo;
+                    Relevant experience and skills with context;
+                    Personal projects;
+                    Documented source code;
+                    Education;
+                    Awards/recognition;
+                    Downloadable web developer resume
+"""), 
+
+rx.card(
+    rx.link(
+        rx.flex(
+            rx.avatar(src="/reflex_banner.png"),
+            rx.box(
+                rx.heading("Quick Start"),
+                rx.text(
+                    "Get started with Reflex in 5 minutes."
+                ),
+            ),
+            spacing="2",
+        ),
+    ),
+    as_child=True,
+),
+
+
             rx.button(
-                "Check out our docs!",
+                "Contactame!",
                 on_click=lambda: rx.redirect(docs_url),
                 size="4",
             ),
