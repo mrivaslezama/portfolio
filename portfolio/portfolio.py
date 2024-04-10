@@ -18,16 +18,7 @@ def index() -> rx.Component:
         rx.vstack(
             rx.heading("Hola, Soy Miguel!", size="9"),
             rx.text("Este es un ensayo con REFLEX!"),
-            rx.text(""" Contact information, 
-                    relevant social media accounts;
-                    Short bio and your photo;
-                    Relevant experience and skills with context;
-                    Personal projects;
-                    Documented source code;
-                    Education;
-                    Awards/recognition;
-                    Downloadable web developer resume
-"""), 
+            rx.text("Actualizando información actual"), 
 
             rx.button(
                 "Contactame!",
