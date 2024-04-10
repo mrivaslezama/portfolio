@@ -29,23 +29,6 @@ def index() -> rx.Component:
                     Downloadable web developer resume
 """), 
 
-rx.card(
-    rx.link(
-        rx.flex(
-            rx.avatar(src="/reflex_banner.png"),
-            rx.box(
-                rx.heading("Quick Start"),
-                rx.text(
-                    "Get started with Reflex in 5 minutes."
-                ),
-            ),
-            spacing="2",
-        ),
-    ),
-    as_child=True,
-),
-
-
             rx.button(
                 "Contactame!",
                 on_click=lambda: rx.redirect(docs_url),
