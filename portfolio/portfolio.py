@@ -18,7 +18,6 @@ def index() -> rx.Component:
         rx.vstack(
             rx.heading("Hola, Soy Miguel!", size="9"),
             rx.text("Este es un ensayo con REFLEX!"),
-            rx.text("Actualizando información actual"), 
 
             rx.button(
                 "Contactame!",
