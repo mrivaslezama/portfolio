@@ -1,0 +1,18 @@
+
+
+import reflex as rx
+
+
+def index ():
+	return rx.text("Hola again!", font_size="2em", color="green", bg='blue', _hover={'color':'gray','bg':'black'})
+
+
+def about():
+	return rx.text('About page........')
+app = rx.App()
+app.add_page(index)
+app.add_page(about, route='/aboutpage')
+app.compile()
+
+
+min 12:03
