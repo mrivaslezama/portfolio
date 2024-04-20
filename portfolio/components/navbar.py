@@ -21,7 +21,7 @@ def navbar():
         ),
         position="fixed",
         top="0px",
-        background_color="lightgray",
+        background_color="white",
         padding="1em",
         height="4em",
         width="100%",

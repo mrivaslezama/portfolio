@@ -1,11 +1,9 @@
-
-
 import reflex as rx
 
 def footer() -> rx.Component:
     return rx.hstack(
         rx.text(
-    "Fabricacion de todo tipo de muebles en melamina para el hogar, clósets, cocinas, zapateras, escritorios, estantes, muebles personalizados, entre otros. ",
+    "Diseñamos, trabajamos con los colores en tendencia y materiales de mayor calidad disponibles en el mercado ",
     rx.hover_card.root(
         rx.hover_card.trigger(
             rx.link(
@@ -19,8 +17,8 @@ def footer() -> rx.Component:
             rx.text("Instagram"),
         ),
         rx.text(
-        "The quick brown fox jumps over the lazy dog.",
-        size="9",
+        "Venta de muebles de melamina a pedido, despacho a domicilio en La Serena y Coquimbo.",
+        size="7",
     ),
     direction="column",
     spacing="3",
