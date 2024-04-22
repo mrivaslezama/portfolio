@@ -6,10 +6,22 @@ def cards() -> rx.Component:
     return rx.hstack(
        rx.center(
            
-           rx.card("Enfocados en las necesidades de nuestros clientes", size="5"),
-           rx.card("Card 3", size="5"),
-           rx.card("Card 4", size="5"),
-           rx.card("Card 5", size="5"),
+           rx.card(
+               image_zoom(
+                rx.image(src="/autana/cuarto1.jpg", width="100%"),
+            ), size="5"),
+            rx.text("No hay proyecto grande"),
+           rx.card(
+               image_zoom(
+                rx.image(src="/autana/armario.jpg", width="100%"),
+            ), size="5"),
+            rx.text("Diseñamos modelos 3d, que te permitan visualizar el aprovechamiento del espacio."),
+
+           rx.card(
+                image_zoom(
+                rx.image(src="/autana/cocinareal.jpg", width="100%"),
+             ),  size="5"),
+           rx.card("Diseñamos conforme a preferencias de nuestros clientes.", size="5"),
            spacing="2",
            align_items="flex-start",
            flex_wrap="wrap",
@@ -20,9 +32,9 @@ def cards() -> rx.Component:
         rx.flex(
             rx.avatar(src="/autana/logo.jpg"),
             rx.box(
-                rx.heading("Quick Start"),
+                rx.heading("Contactanos"),
                 rx.text(
-                    "Get started with Reflex in 5 minutes."
+                    "Visita nuestro perfil de instagram."
                 ),
             ),
             spacing="2",

@@ -3,7 +3,7 @@ import reflex as rx
 def footer() -> rx.Component:
     return rx.hstack(
         rx.text(
-    "Diseñamos, trabajamos con los colores en tendencia y materiales de mayor calidad disponibles en el mercado ",
+    "Trabajamos con los colores en tendencia y materiales de mayor calidad disponibles en el mercado ",
     rx.hover_card.root(
         rx.hover_card.trigger(
             rx.link(
