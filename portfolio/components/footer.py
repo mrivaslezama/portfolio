@@ -2,12 +2,14 @@ import reflex as rx
 
 def footer() -> rx.Component:
     return rx.hstack(
+        rx.divider(
         rx.text(
-    "Trabajamos con los colores en tendencia y materiales de mayor calidad disponibles en el mercado ",
+    "Reconocidos por diseñar y fabricar muebles con excelencia y altos estandares de calidad. ",
+    rx.divider(),
     rx.hover_card.root(
         rx.hover_card.trigger(
             rx.link(
-                "Contactanos!",
+                "Puedes seguir nuestros procesos de construcción en Instagram!",
                 color_scheme="blue",
                 underline="always",
                 href="https://www.instagram.com/autanamuebles/?hl=es."
@@ -17,13 +19,21 @@ def footer() -> rx.Component:
             rx.text("Instagram"),
         ),
         rx.text(
-        "Venta de muebles de melamina a pedido, despacho a domicilio en La Serena y Coquimbo.",
-        size="7",
+        "Atención y despacho en La Serena y Coquimbo.",
+        size="5",
+    ),
+  
+    rx.divider(
+    rx.text(
+        "CONSULTAS & ORDENES, autanamuebles@gmail.com / +56 9 4844 6060",
+        size="5",
+    ),
     ),
     direction="column",
     spacing="3",
     ),
     ),
+    )
     )
 
 

@@ -9,17 +9,25 @@ def cards() -> rx.Component:
                 rx.text(
                     rx.link("Puedes ver más de nuestros proyectos en instagram.",href="https://www.instagram.com/autanamuebles/?hl=es."),
                     rx.image(src="autana/proyectos.jpg", width="100%", height="auto"),
+            rx.box(
             rx.divider(
-                    rx.image(src="autana/disenos.jpg", width="100%", height="auto"),
+                    rx.video(
+                        url="/autana/autana1.mp4",
+                        width="800px",
+                        height="auto",
+                        playing=True,
+                        loop=True,
+                        
+                    ),
+                ),
             ),
         align="center",
         spacing="7",
-        font_family="IBM Plex Mono",
+        font_family="Lora",
         font_size="2em",
         padding_top="3em",
             )
         ),
         height="100vh",
-    
-)
+        )
     )
