@@ -1,0 +1,4 @@
+;/*FB_PKG_DELIM*/
+
+__d("PolarisProfilePostsDirectQuery$Parameters",["PolarisProfilePostsDirectQuery_instagramRelayOperation","PolarisShareMenu.relayprovider"],(function(a,b,c,d,e,f){"use strict";a={kind:"PreloadableConcreteRequest",params:{id:b("PolarisProfilePostsDirectQuery_instagramRelayOperation"),metadata:{is_distillery:!0},name:"PolarisProfilePostsDirectQuery",operationKind:"query",text:null,providedVariables:{__relay_internal__pv__PolarisShareMenurelayprovider:b("PolarisShareMenu.relayprovider")}}};e.exports=a}),null);
+__d("PolarisProfilePostsQuery$Parameters",["PolarisShareMenu.relayprovider"],(function(a,b,c,d,e,f){"use strict";a={kind:"PreloadableConcreteRequest",params:{id:"7441773399252872",metadata:{},name:"PolarisProfilePostsQuery",operationKind:"query",text:null,providedVariables:{__relay_internal__pv__PolarisShareMenurelayprovider:b("PolarisShareMenu.relayprovider")}}};e.exports=a}),null);

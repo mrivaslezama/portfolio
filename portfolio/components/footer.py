@@ -27,3 +27,19 @@ def footer() -> rx.Component:
     )
 
 
+"""
+ATENCIÓN
+La Serena y Coquimbo, Region de Coquimbo
+
+
+CONSULTAS & ORDENES
+autanamuebles@gmail.com / +65 8111 8900
+
+Copyright@2024 Autana Muebles® All Rights Reserved.
+
+ATENCIÓN AL CLIENTE
+Materiales & Mantenimiento
+Ventas & Contraciones
+Terminos & Condiciones
+Servicios de diseño & cotizaciones
+"""
